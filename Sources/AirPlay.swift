@@ -12,10 +12,10 @@ import AVFoundation
 
 public extension Notification.Name {
     /// Notification sent everytime AirPlay availability changes.
-    public static let airplayAvailabilityChangedNotification = Notification.Name("AirPlayAvailabilityChangedNotification")
+    static let airplayAvailabilityChangedNotification = Notification.Name("AirPlayAvailabilityChangedNotification")
 
     /// Notification sent everytime AirPlay connection route changes.
-    public static let airplayRouteStatusChangedNotification = Notification.Name("AirPlayRouteChangedNotification")
+    static let airplayRouteStatusChangedNotification = Notification.Name("AirPlayRouteChangedNotification")
 }
 
 final public class AirPlay: NSObject {
